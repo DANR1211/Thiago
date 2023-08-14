@@ -1,0 +1,23 @@
+.player-wrapper {
+    position: relative;
+    height: 100%;
+}
+    
+  .player-wrapper.custom{
+    display: none;
+  }
+
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+.ref{
+  position: absolute;
+  height: 200px;
+  width: 315px;
+  top: 73%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
